@@ -1,6 +1,3 @@
-# JavaScript
-
-# jQuery
 ### Introducing jQuery
 The setup almost always looks like the following:
 ```javascript
@@ -169,3 +166,8 @@ $('div').hide();
 $('img' ).animate({ top: '+=100px'}, 1000 );
 ```
 jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on the top of the jQuery JavaScript library.[Documentation](http://jqueryui.com/)  
+
+
+## Project
+### Bonsai
+![Bonsai](/Project-Bonsai/Bonsai.JPG?raw=true "Optional Title")
