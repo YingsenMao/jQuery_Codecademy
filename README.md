@@ -170,4 +170,5 @@ jQuery UI is a curated set of user interface interactions, effects, widgets, and
 
 ## Project
 ### Bonsai
-![Bonsai](/Project-Bonsai/Bonsai.JPG?raw=true "Optional Title")
+![](/Project-Bonsai/Bonsai.JPG?raw=true "Optional Title")  
+<img src="/Project-Bonsai/Bonsai.JPG" align="left" height="48" width="48" >
