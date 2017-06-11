@@ -1,0 +1,16 @@
+form {
+    display: inline-block;
+}
+
+#button{
+    display: inline-block;
+    padding: 1px 10px;
+    background: #cc0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list{
+    color: #cc0000;
+    cursor: pointer;
+}

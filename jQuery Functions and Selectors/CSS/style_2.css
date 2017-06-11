@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.pull-me{
+    background: #cc0000;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    margin-top:-8px;
+    box-shadow: 0 0 8px #FFD700;
+
+}
+
+.pull-me p {
+    text-align: center;
+    color: #fff;
+}
+
+.panel {
+    height: 100px;
+    background: #ffffbd;
+    /*set display to none is very important because we don't want it to display before clicking*/
+    display: none;
+}
