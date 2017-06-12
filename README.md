@@ -186,10 +186,10 @@ $('#top-text').keyup(function(){
 });
 ```
 ### Pocketbook
-<img src="/Project-Pocketbook/Pocketbook.JPG" width = '80%' height = '300px'>  
-![alt text](/Project-Pocketbook/Pocketbook.JPG)
+<img src="/Project-Pocketbook/Pocketbook.JPG" width = '80%' height = '300px'>  <br />
+  
 ### Threadly
-<img src="/Project-Threadly/Threadly.JPG" raw =true> 
+<img src="/Project-Threadly/Threadly.JPG" width = '80%' height = '300px'> 
 ```javascript
 var html = $('<li>').text(comment);
 $(html).prependTo('.comments');
