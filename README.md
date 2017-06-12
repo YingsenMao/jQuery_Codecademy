@@ -233,7 +233,7 @@ $('.nav li').click(function() {
 ```
 
 ### Birdman
-<img src="/Project-Birdman/Birdman.JPG" width = '320px' height = '320px'> <br /> 
+<img src="/Project-Birdman/Birdman.JPG" width = '400px' height = '320px'> <br /> 
 ```dropdown-menu``` a bootstrap class with visibility is initially set to none.
 ```javascript
 $('img').click(function(){
