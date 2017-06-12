@@ -222,3 +222,6 @@ $(document).on("click", '.glyphicon-star', function() {
     $(this).toggleClass('active'); 
 });
 ```
+
+### Armando Perez
+<img src="/Project-Armando Perez/Armando Perez.JPG" width = '300px' height = '250px'> <br /> 
