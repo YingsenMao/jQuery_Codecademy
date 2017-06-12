@@ -193,7 +193,7 @@ $('.thumbnail img').attr('src', $(this).val());
 <img src="/Project-Pocketbook/Pocketbook.JPG" width = '60%' height = '220px'>  <br />
   
 ### Threadly
-<img src="/Project-Threadly/Threadly.JPG" width = '300px' height = '250px'> <br /> 
+<img src="/Project-Threadly/Threadly.JPG" width = '320px' height = '320px'> <br /> 
 Append a ```<li>``` with text to a list. And clear the text. 
 ```javascript
 var html = $('<li>').text(comment);
@@ -201,7 +201,7 @@ $(html).prependTo('.comments');
 $('#comment').val("");
 ```
 ### Forecast
-<img src="/Project-Forecast/Forecast.JPG" width = '300px' height = '250px'> <br /> 
+<img src="/Project-Forecast/Forecast.JPG" width = '320px' height = '220px'> <br /> 
 * ```toggle()``` the element followed after ```this```. The toggle() toggles between **hide()** and **show()** for the selected elements.
 * ```find()``` the ```'span'``` within ```weekday``` and ```toggleClass()``` the ```glyphicon-minus```
 ```javascript
@@ -212,7 +212,7 @@ $('.day').click(function(){
 ```
 
 ### ListEasy
-<img src="/Project-ListEasy/ListEasy.JPG" width = '300px' height = '250px'> <br /> 
+<img src="/Project-ListEasy/ListEasy.JPG" width = '320px' height = '320px'> <br /> 
 The ```.click()``` method works for HTML elements that are already on the page. Here we're using the form to dynamically add new HTML elements to the page. The ```.click()``` method won't work on dynamically added HTML elements. Instead, we need to use the ```.on()``` method.
 ```javascript
 $(document).on("click", '.glyphicon-remove', function() {
@@ -224,4 +224,19 @@ $(document).on("click", '.glyphicon-star', function() {
 ```
 
 ### Armando Perez
-<img src="/Project-Armando Perez/Armando Perez.JPG" width = '300px' height = '250px'> <br /> 
+<img src="/Project-Armando Perez/Armando Perez.JPG" width = '320px' height = '320px'> <br /> 
+Get the class of clicked list by using ```.attr()```.
+```javascript
+$('.nav li').click(function() {
+    var category = $(this).attr('class');
+)}
+```
+
+### Birdman
+<img src="/Project-Birdman/Birdman.JPG" width = '320px' height = '320px'> <br /> 
+```dropdown-menu``` a bootstrap class with visibility is initially set to none.
+```javascript
+$('img').click(function(){
+    $('.dropdown-menu').toggle();
+});
+```
