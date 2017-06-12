@@ -185,6 +185,10 @@ $('#top-text').keyup(function(){
     $('.top-caption').text($(this).val());
 });
 ```
+The ```attr()``` method **sets** or **returns** attributes and values of the selected element.
+```javascript
+$('.thumbnail img').attr('src', $(this).val());
+```
 ### Pocketbook
 <img src="/Project-Pocketbook/Pocketbook.JPG" width = '60%' height = '220px'>  <br />
   
@@ -198,10 +202,23 @@ $('#comment').val("");
 ```
 ### Forecast
 <img src="/Project-Forecast/Forecast.JPG" width = '300px' height = '250px'> <br /> 
-* ```toggle()``` the class followed after ```this```. The toggle() toggles between **hide()** and **show()** for the selected elements.
+* ```toggle()``` the element followed after ```this```. The toggle() toggles between **hide()** and **show()** for the selected elements.
 * ```find()``` the ```'span'``` within ```weekday``` and ```toggleClass()``` the ```glyphicon-minus```
 ```javascript
 $('.day').click(function(){
+    //the next element is initially set with "display: none;"
     $(this).next().toggle();
     $('.weekday').find('span').toggleClass('glyphicon-minus');});
+```
+
+### ListEasy
+<img src="/Project-ListEasy/ListEasy.JPG" width = '300px' height = '250px'> <br /> 
+The ```.click()``` method works for HTML elements that are already on the page. Here we're using the form to dynamically add new HTML elements to the page. The ```.click()``` method won't work on dynamically added HTML elements. Instead, we need to use the ```.on()``` method.
+```javascript
+$(document).on("click", '.glyphicon-remove', function() {
+    $(this).parent().remove(); 
+}); 
+$(document).on("click", '.glyphicon-star', function() {
+    $(this).toggleClass('active'); 
+});
 ```
