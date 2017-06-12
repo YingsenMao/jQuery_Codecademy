@@ -186,7 +186,7 @@ $('#top-text').keyup(function(){
 });
 ```
 ### Pocketbook
-<img src="/Project-Pocketbook/Pocketbook.JPG" width = 80%>  
+<img src="/Project-Pocketbook/Pocketbook.JPG" width = '80%' height = '300px'>  
 ### Threadly
 <img src="/Project-Threadly/Threadly.JPG" raw =true> 
 ```javascript
