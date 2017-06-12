@@ -198,8 +198,8 @@ $('#comment').val("");
 ```
 ### Forecast
 <img src="/Project-Forecast/Forecast.JPG" width = '300px' height = '250px'> <br /> 
-* toggle() the class followed after ```this```. The toggle() toggles between **hide()** and **show()** for the selected elements.
-* **find** ```'span'``` within ```weekday``` and toggle the class ```glyphicon-minus```
+* ```toggle()``` the class followed after ```this```. The toggle() toggles between **hide()** and **show()** for the selected elements.
+* ```find()``` the ```'span'``` within ```weekday``` and ```toggleClass()``` the ```glyphicon-minus```
 ```javascript
 $('.day').click(function(){
     $(this).next().toggle();
