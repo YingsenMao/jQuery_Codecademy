@@ -242,7 +242,7 @@ $('img').click(function(){
 ```
 
 ### Feedster
-<img src="/Project-Feedster/Feedster.JPG" width = '300px' height = '400px'> <br /> 
+<img src="/Project-Feedster/Capture.JPG" width = '300px' height = '400px'> <br /> 
 
 ### Gameboard
-<img src="/Project-Feedster/Feedster.JPG" width = '320px' height = '320px'> <br /> 
+<img src="/Project-Gameboard/Gameboard.JPG" width = '320px' height = '320px'> <br /> 
