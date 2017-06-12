@@ -170,7 +170,7 @@ jQuery UI is a curated set of user interface interactions, effects, widgets, and
 
 ## Project
 ### Bonsai
-<img src="/Project-Bonsai/Bonsai.JPG" raw =true > <br />
+<img src="/Project-Bonsai/Bonsai.JPG" width = '80%' height = '220px'> <br />
 Get the input from text form and set its value to another element
 ```html
 <form role="form">
@@ -186,10 +186,11 @@ $('#top-text').keyup(function(){
 });
 ```
 ### Pocketbook
-<img src="/Project-Pocketbook/Pocketbook.JPG" width = '80%' height = '300px'>  <br />
+<img src="/Project-Pocketbook/Pocketbook.JPG" width = '80%' height = '220px'>  <br />
   
 ### Threadly
-<img src="/Project-Threadly/Threadly.JPG" width = '80%' height = '300px'> 
+<img src="/Project-Threadly/Threadly.JPG" width = '80%' height = '22ppx'> <br /> 
+Append a ```<li>``` with text to a list. And clear the text. 
 ```javascript
 var html = $('<li>').text(comment);
 $(html).prependTo('.comments');
