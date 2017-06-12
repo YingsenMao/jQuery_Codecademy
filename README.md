@@ -186,4 +186,11 @@ $('#top-text').keyup(function(){
 });
 ```
 ### Pocketbook
-<img src="/Project-Pocketbook/Pocketbook.JPG" raw =true align="left" height="220" width="70%" >  
+<img src="/Project-Pocketbook/Pocketbook.JPG" raw =true>  
+### Threadly
+<img src="/Project-Threadly/Threadly.JPG" raw =true> 
+```javascript
+var html = $('<li>').text(comment);
+$(html).prependTo('.comments');
+$('#comment').val("");
+```
