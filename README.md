@@ -170,6 +170,20 @@ jQuery UI is a curated set of user interface interactions, effects, widgets, and
 
 ## Project
 ### Bonsai
-<img src="/Project-Bonsai/Bonsai.JPG" raw =true align="left" height="220" width="70%" >
+<img src="/Project-Bonsai/Bonsai.JPG" raw =true align="left" height="220" width="70%" >  
+Get the input from text form and set its value to another element
+```html
+<form role="form">
+    <div class="form-group">
+        <label>Top Text</label>
+        <input id="top-text" type="text" class="form-control">
+    </div>
+</form>
+```
+```javascript
+$('#top-text').keyup(function(){
+    $('.top-caption').text($(this).val());
+});
+```
 ### Pocketbook
-<img src="/Project-Pocketbook/Pocketbook.JPG" raw =true align="left" height="220" width="70%" >
+<img src="/Project-Pocketbook/Pocketbook.JPG" raw =true align="left" height="220" width="70%" >  
