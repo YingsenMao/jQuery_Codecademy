@@ -189,7 +189,7 @@ $('#top-text').keyup(function(){
 <img src="/Project-Pocketbook/Pocketbook.JPG" width = '60%' height = '220px'>  <br />
   
 ### Threadly
-<img src="/Project-Threadly/Threadly.JPG" width = '60%' height = '220px'> <br /> 
+<img src="/Project-Threadly/Threadly.JPG" width = '250px' height = '250px'> <br /> 
 Append a ```<li>``` with text to a list. And clear the text. 
 ```javascript
 var html = $('<li>').text(comment);
@@ -197,10 +197,11 @@ $(html).prependTo('.comments');
 $('#comment').val("");
 ```
 ### Forecast
-<img src="/Project-Forecast/Forecast.JPG" width = '60%' height = '220px'> <br /> 
+<img src="/Project-Forecast/Forecast.JPG" width = '250px' height = '250px'> <br /> 
 * toggle() the class followed after ```this```. The toggle() toggles between **hide()** and **show()** for the selected elements.
 * **find** ```'span'``` within ```weekday``` and toggle the class ```glyphicon-minus```
 ```javascript
-$(this).next().toggle();
-$('.weekday').find('span').toggleClass('glyphicon-minus');
+$('.day').click(function(){
+    $(this).next().toggle();
+    $('.weekday').find('span').toggleClass('glyphicon-minus');});
 ```
