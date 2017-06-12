@@ -170,7 +170,7 @@ jQuery UI is a curated set of user interface interactions, effects, widgets, and
 
 ## Project
 ### Bonsai
-<img src="/Project-Bonsai/Bonsai.JPG" raw =true align="left" height="220" width="70%" >  
+<img src="/Project-Bonsai/Bonsai.JPG" raw =true align="left" height="220" width="70%" > <br />
 Get the input from text form and set its value to another element
 ```html
 <form role="form">
