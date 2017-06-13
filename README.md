@@ -248,6 +248,6 @@ $('img').click(function(){
 ---
 <img src="/Project-MOVE Gear/MOVE.JPG" width = '60%' height = '220px'> <br />
 ---
-<img src="/Project-Market/market.JPG" width = '60%' height = '220px'> <br />
+<img src="/Project-Market/market.JPG" width = '80%' height = '180px'> <br />
 ---
-<img src="/Project-Market/market.JPG" raw = true> <br />
+
