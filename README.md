@@ -1,5 +1,28 @@
 ### Introducing jQuery
-The setup almost always looks like the following:
+jQuery is just JavaScript. It is a collection of JavaScript functions that make things a bit shorter and easier to code when working with the DOM. The JavaScirpt and jQuery below achieve the same thing, but jQuery is much shorter.    
+```javascript
+const box = document.querySelector('.box');
+box.style.display = 'none';
+//jQuery equivalence 
+jQuery('.box').hide();
+```
+Once you select the DOM element using jQuery function, jQuery function provides you tons of method to animate, change, or manipulate the element. The short hand for the jQuery function is the dollar sign $.  
+```javascript
+jQuery('.box').hide();
+$('.box').hide();
+```
+Here is another example using event listener.  
+```javascript
+const box = document.querySelector('.box');
+box.addEventListener('click', function(){
+    alert('You clicked me!')
+})
+//jQuery equivalence
+$('.box').click(function(){
+    alert('You clicked me!')
+});
+```
+The setup almost always looks like the following. That's because jQuery function is implemented only if the web is full loaded(ready).
 ```javascript
 $(document).ready(function() {
     $('thingToTouch').event(function() {
@@ -166,7 +189,15 @@ $('div').hide();
 $('img' ).animate({ top: '+=100px'}, 1000 );
 ```
 jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on the top of the jQuery JavaScript library.[Documentation](http://jqueryui.com/)  
-
+### jQuery Methods Chainning
+The jQuery methods can be chained as follows.
+```javascript
+$('#div')
+    .hide()
+    .slideDown(1000)
+    .delay(3000)
+    .slideUp();  
+```
 
 ## Project
 ### Bonsai
